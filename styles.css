@@ -112,12 +112,12 @@ footer p {
     text-decoration: none; /* Remove underline */
 }
 
-.contact-link:hover {
-    color: #00aaff; /* Optional: Change color on hover */
+.contact-link i {
+    font-size: 2em; /* Adjust icon size as needed */
 }
 
-.contact-info i {
-    font-size: 2em; /* Icon size */
+.contact-link:hover i {
+    color: #00aaff; /* Change color on hover */
 }
 
 footer {
@@ -132,6 +132,7 @@ footer {
     margin: auto;
     padding: 0 20px;
 }
+
 
 
 
