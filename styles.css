@@ -100,6 +100,7 @@ footer p {
         max-width: 100%;
     }
   
+/* Styles for the contact section and footer */
 .contact-info {
     display: flex;
     justify-content: center;
@@ -112,12 +113,12 @@ footer p {
     text-decoration: none; /* Remove underline */
 }
 
-.contact-link i {
-    font-size: 2em; /* Adjust icon size as needed */
+.contact-link:hover {
+    color: #00aaff; /* Optional: Change color on hover */
 }
 
-.contact-link:hover i {
-    color: #00aaff; /* Change color on hover */
+.contact-info i {
+    font-size: 2em; /* Adjust icon size as needed */
 }
 
 footer {
@@ -133,7 +134,8 @@ footer {
     padding: 0 20px;
 }
 
-
-
+.footer-bottom {
+    margin-top: 10px; /* Space between contact section and footer text */
+}
 
 }
