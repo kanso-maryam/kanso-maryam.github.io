@@ -5,7 +5,7 @@ body {
     background-color: #f4f4f4;
 }
 
-header, footer {
+header{
     background-color: #333;
     color: #fff;
     text-align: center;
@@ -99,22 +99,42 @@ footer p {
     .project img {
         max-width: 100%;
     }
-    .contact-info {
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    font-size: 1.2em;
+    align-items: center;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info h2 {
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
 }
 
 .contact-info p {
-    margin: 0;
+    margin: 10px 0;
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
 .contact-info a {
-    color: #007bff;
+    color: #00aaff;
     text-decoration: none;
 }
 
@@ -124,7 +144,17 @@ footer p {
 
 .contact-info i {
     font-size: 1.5em;
-    color: #333;
+    color: #fff;
 }
+
+.footer-bottom {
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 1em;
+}
+
 
 }
