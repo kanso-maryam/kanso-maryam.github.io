@@ -72,6 +72,7 @@ footer {
 .contact-info h2 {
     margin: 0;
     font-size: 1.5em;
+    color: #fff; /* Ensure header text is white */
 }
 
 .contact-icons {
@@ -89,11 +90,13 @@ footer {
 .contact-link i {
     font-size: 2em; /* Icon size */
     display: block;
+    color: #fff; /* Explicitly set icon color to white */
 }
 
 .contact-link span {
     display: block;
     margin-top: 5px;
+    color: #fff; /* Ensure text color is white */
 }
 
 .contact-link:hover i {
@@ -103,4 +106,5 @@ footer {
 /* Footer bottom section styles */
 .footer-bottom {
     margin-top: 10px; /* Space between contact section and footer text */
+    color: #fff; /* Ensure footer text color is white */
 }
