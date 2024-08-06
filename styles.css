@@ -99,4 +99,32 @@ footer p {
     .project img {
         max-width: 100%;
     }
+    .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.2em;
+}
+
+.contact-info p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-info i {
+    font-size: 1.5em;
+    color: #333;
+}
+
 }
