@@ -99,21 +99,25 @@ footer p {
     .project img {
         max-width: 100%;
     }
-  .contact-info {
+  
+.contact-info {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 30px; /* Space between icons */
     margin: 20px 0;
 }
 
 .contact-link {
-    color: #fff; /* Icon color */
-    font-size: 2em; /* Icon size */
+    color: #fff; /* White color for icons */
     text-decoration: none; /* Remove underline */
 }
 
 .contact-link:hover {
-    color: #00aaff; /* Change color on hover */
+    color: #00aaff; /* Optional: Change color on hover */
+}
+
+.contact-info i {
+    font-size: 2em; /* Icon size */
 }
 
 footer {
@@ -128,6 +132,7 @@ footer {
     margin: auto;
     padding: 0 20px;
 }
+
 
 
 }
