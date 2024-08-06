@@ -1,20 +1,28 @@
+/* General body and container styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    color: #333; /* Default text color */
 }
 
-header{
-    background-color: #333;
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background: #333;
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 header p {
@@ -22,84 +30,27 @@ header p {
     font-size: 1.2em;
 }
 
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-section {
-    margin-bottom: 20px;
-}
-
-h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    font-size: 2em;
-}
-
+/* Project section styles */
 .project {
-    margin-bottom: 30px;
+    margin: 20px 0;
 }
 
 .project img {
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
     height: auto;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.project h3 {
-    margin: 0 0 10px;
-    font-size: 1.5em;
-}
-
-.project p {
-    line-height: 1.6;
 }
 
 .project a {
-    color: #007bff;
     text-decoration: none;
-    font-weight: bold;
+    color: #007BFF; /* Link color */
 }
 
 .project a:hover {
     text-decoration: underline;
 }
 
-footer p {
-    margin: 0;
-    font-size: 1em;
-}
-
-@media (max-width: 768px) {
-    .container {
-        width: 95%;
-    }
-
-    header h1 {
-        font-size: 2em;
-    }
-
-    header p {
-        font-size: 1em;
-    }
-
-    h2 {
-        font-size: 1.5em;
-    }
-
-    .project img {
-        max-width: 100%;
-    }
-  
+/* Footer styles */
 footer {
     background-color: #333;
     color: #fff;
@@ -126,11 +77,11 @@ footer {
 .contact-icons {
     display: flex;
     justify-content: center;
-    gap: 30px; /* Space between icons */
+    gap: 20px; /* Space between icons */
 }
 
 .contact-link {
-    color: #fff; /* White color for icons */
+    color: #fff; /* White color for icons and text */
     text-decoration: none; /* Remove underline */
     text-align: center;
 }
@@ -146,11 +97,10 @@ footer {
 }
 
 .contact-link:hover i {
-    color: #00aaff; /* Optional: Change color on hover */
+    color: #00aaff; /* Change color on hover */
 }
 
 /* Footer bottom section styles */
 .footer-bottom {
     margin-top: 10px; /* Space between contact section and footer text */
-}
 }
